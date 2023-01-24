@@ -7,13 +7,13 @@ class PrintBoard
     public void Print(string[] myboard)
     {
         //print out each poisition of the board in a specific format in groups of three
-        Console.WriteLine("   {0}  |   {1}  |  {2} ", myboard[0], myboard[1], myboard[2]);
+        Console.WriteLine("   {0}    |   {1}    |  {2} ", myboard[0], myboard[1], myboard[2]);
         Console.WriteLine("  ______|________|______");
         Console.WriteLine("        |        |      ");
-        Console.WriteLine("   {0}  |   {1}  |  {2} ", myboard[3], myboard[4], myboard[5]);
+        Console.WriteLine("   {0}    |   {1}    |  {2} ", myboard[3], myboard[4], myboard[5]);
         Console.WriteLine("  ______|________|______");
         Console.WriteLine("        |        |      ");
-        Console.WriteLine("   {0}  |   {1}  |  {2} ", myboard[6], myboard[7], myboard[8]);
+        Console.WriteLine("   {0}    |   {1}    |  {2} ", myboard[6], myboard[7], myboard[8]);
         Console.WriteLine("        |        |      ");
     }
 

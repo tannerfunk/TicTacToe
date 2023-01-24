@@ -22,6 +22,7 @@ namespace TicTacToe
 
             string noWinner = "N";
 
+            printBoard.Print(boardPosition);
 
             Console.WriteLine("0 is the top left position, 8 is the bottom right position.");
 
@@ -66,7 +67,7 @@ namespace TicTacToe
             }
             else
             {
-                Console.WriteLine("Congrats player " + noWinner);
+                Console.WriteLine("Congrats player " + noWinner + "! You are the winner!");
             }
             
 
