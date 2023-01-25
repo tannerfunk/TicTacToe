@@ -73,7 +73,7 @@ class PrintBoard
         }
         else
         {
-            return "N"; // Nothin happens;
+            return "N"; // Nothin happens
         }
 
     }
